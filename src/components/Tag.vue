@@ -3,7 +3,7 @@
 		<i class="bracket">&lt;</i>
 		<i class="tag">{{content}}</i>
 		<i class="bracket">&gt;</i>
-		<!-- <slot></slot> -->
+		<slot></slot>
 		<i class="bracket">&lt;</i>
 		<i class="tag">{{content}}</i>
 		<i class="bracket">/&gt;</i>
