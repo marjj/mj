@@ -1,5 +1,5 @@
 <template>
-	<p :class="cls">
+	<div :class="cls" :key=1>
 		<i class="bracket">&lt;</i>
 		<i class="tag">{{content}}</i>
 		<i class="bracket">&gt;</i>
@@ -7,7 +7,7 @@
 		<i class="bracket">&lt;</i>
 		<i class="tag">{{content}}</i>
 		<i class="bracket">/&gt;</i>
-	</p>
+	</div>
 </template>
 
 <script type="text/javascript">
@@ -22,7 +22,7 @@ i {
   text-decoration: none;
   font-style: normal;
 }
-p {
+div {
 	position: relative;
 	z-index: -1;
 	&.parent:after {

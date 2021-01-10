@@ -154,7 +154,7 @@ $bgcolor: #13151f;
 $fontcolor: #fff;
 * {
   box-sizing: border-box;
-  transition: all 0.4s ease;
+  transition: width 0.4s ease;
   scroll-behavior: smooth;
 }
 
